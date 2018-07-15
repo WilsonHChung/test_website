@@ -44,7 +44,7 @@ img {
 }
 
 /* Wilson Chung Name Header Class */
-.namecenter {
+.name {
 	position: absolute;
 	top: 55%;
 	left: 50%;
@@ -62,15 +62,15 @@ h1 {
 
 .bg { 
     /* The image used */
-    /*background-image: url('assets/Pictures/SeaBackground.jpg');*/
+    background-image: url('assets/Pictures/SeaBackground.jpg');
 
     /* Full height */
-    /*height: 100%; */
+    height: 100%; 
 
     /* Center and scale the image nicely */
-    /*background-position: center;
-    background-repeat: repeat-y; 
-    background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 
 /* Styling for social media icons */
