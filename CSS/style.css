@@ -3,52 +3,10 @@ body {
 	
 }
 
+/* No gaps in between text and photos */
 body, html {
 	height: 100%;
 	margin: 0;
-}
-
-.background {
-	position: relative;
-	text-align: center;
-	color: white;
-}
-
-/* Wilson's Profile Picture Class */
-.profilepic {
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-/* Wilson Chung Header Custom Font */
-
-h1 {
-	font-size: 50px;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-}
-
-/* Wilson Chung Header Class */
-.center {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.bg { 
-    /* The image used */
-    background-image: url('assets/Pictures/SeaBackground.jpg');
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    /*background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; */
 }
 
 img {
@@ -60,10 +18,60 @@ img {
 	width: 100%;
 
 	/* makes a circle border */
-	 border-radius: 0%; 
+	border-radius: 0%; 
 	
+} 
+
+.background {
+	position: relative;
+	text-align: center;
+	color: white;
 }
 
+/* Wilson's Profile Picture Class */
+.profilepic {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 25%;
+}
+
+/* Wilson's Profile Picture Circle Border */
+.profilepic img {
+
+	border-radius: 50%;
+}
+
+/* Wilson Chung Name Header Class */
+.namecenter {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Wilson Chung Name Header Custom Font */
+h1 {
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: normal;
+}
+
+
+.bg { 
+    /* The image used */
+    /*background-image: url('assets/Pictures/SeaBackground.jpg');*/
+
+    /* Full height */
+    /*height: 100%; */
+
+    /* Center and scale the image nicely */
+    /*background-position: center;
+    background-repeat: repeat-y; 
+    background-size: cover; */
+}
 
 /* Styling for social media icons */
 .fa {
@@ -81,7 +89,7 @@ img {
     opacity: 0.7;
 }
 
-
+/* Linkedin Social Media Icon Class */
 .fa-linkedin {
   background: #007bb5;
   color: white;
