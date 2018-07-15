@@ -1,6 +1,6 @@
 
 body {
-	
+	background: black;
 }
 
 /* No gaps in between text and photos */
@@ -15,9 +15,7 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
-
-	/* makes a circle border */
+	max-width: 100%;
 	border-radius: 0%; 
 	
 } 
@@ -31,7 +29,7 @@ img {
 /* Wilson's Profile Picture Class */
 .profilepic {
 	position: absolute;
-	top: 35%;
+	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 25%;
@@ -46,9 +44,12 @@ img {
 /* Wilson Chung Name Header Class */
 .name {
 	position: absolute;
-	top: 55%;
-	left: 50%;
+	/*top: 55%;*/
+	top: 8%;
+	left: 15%;
 	transform: translate(-50%, -50%);
+	max-width: 100%;
+	height: auto;
 }
 
 /* Wilson Chung Name Header Custom Font */
@@ -59,19 +60,52 @@ h1 {
 	font-weight: normal;
 }
 
-
-.bg { 
-    /* The image used */
-    /*background-image: url('assets/Pictures/SeaBackground.jpg');*/
-
-    /* Full height */
-    /*height: 100%;*/ 
-
-    /* Center and scale the image nicely */
-    /*background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; */
+/* Consistent text formatting applies to all links */
+a {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: normal;
+	color: white;
 }
+
+/* Removal of underlines making the links visually appealing */
+a:link {
+	text-decoration: none;
+}
+
+/* Opacity changes to allow the links to blend nicely into the background */
+a:hover {
+	opacity: 0.2;
+}
+
+.aboutme {
+	position: absolute;
+	top: 8%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+	height: auto;
+}
+
+.projects {
+	position: absolute;
+	top: 8%;
+	left: 85%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+	height: auto;
+}
+
+.hobbies {
+	position: absolute;
+	top: 8%;
+	left: 95%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+	height: auto;
+}
+
 
 /* Styling for social media icons */
 .fa {
@@ -93,4 +127,20 @@ h1 {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  position: absolute;
+  top: 13%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+}
+
+/* Github Icon Class */
+.fa-github {
+  position: absolute;
+  top: 13%;
+  left: 84.2%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
 }
