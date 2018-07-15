@@ -74,11 +74,12 @@ a:link {
 	text-decoration: none;
 }
 
-/* Opacity changes to allow the links to blend nicely into the background */
+/* Opacity changes for icons and links to blend nicely into the background */
 a:hover {
 	opacity: 0.2;
 }
 
+/* About Me Link Class */
 .aboutme {
 	position: absolute;
 	top: 8%;
@@ -88,6 +89,7 @@ a:hover {
 	height: auto;
 }
 
+/* Projects Link Class */
 .projects {
 	position: absolute;
 	top: 8%;
@@ -97,6 +99,7 @@ a:hover {
 	height: auto;
 }
 
+/* Hobbies Link Class */
 .hobbies {
 	position: absolute;
 	top: 8%;
@@ -106,30 +109,21 @@ a:hover {
 	height: auto;
 }
 
-
-/* Styling for social media icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-
-/* Opacity for social media icons */
-.fa:hover {
-    opacity: 0.7;
-}
-
 /* Linkedin Social Media Icon Class */
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  padding: 15px;
+  font-size: 50px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+
   position: absolute;
-  top: 13%;
-  left: 75%;
+  top: 13.75%;
+  left: 9.45%;
   transform: translate(-50%, -50%);
   max-width: 100%;
   height: auto;
@@ -138,9 +132,20 @@ a:hover {
 /* Github Icon Class */
 .fa-github {
   position: absolute;
-  top: 13%;
-  left: 84.2%;
+  top: 14%;
+  left: 14.95%;
   transform: translate(-50%, -50%);
   max-width: 100%;
   height: auto;
+}
+
+/* Email Icon Class */
+.material-icons {
+  position: absolute;
+  top: 14%;
+  left: 20.45%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+  color: #FF4517;
 }
