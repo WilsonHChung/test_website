@@ -37,7 +37,6 @@ img {
 
 /* Wilson's Profile Picture Circle Border */
 .profilepic img {
-
 	border-radius: 50%;
 }
 
@@ -148,4 +147,95 @@ a:hover {
   max-width: 100%;
   height: auto;
   color: #FF4517;
+}
+
+h2 {
+	margin: 50px 0px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: right;
+	font-size: 1em;
+}
+
+.aboutme-nav, .projects-nav {
+	left: 95%;
+}
+
+.aboutme-profilepic {
+	position: absolute;
+	top: 170%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.projects-2017FRCRobot {
+	position: absolute;
+	top: 260%;
+	left: 87%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+}
+
+.projects-tshirtrobot {
+	position: absolute;
+	top: 300%;
+	left: 13%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+}
+
+.projects-2016FRCRobot {
+	position: absolute;
+	top: 300%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 33.5%;
+}
+
+.projects-2015FTCRobot {
+	position: absolute;
+	top: 300%;
+	left: 87%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+}
+
+.hobbies-RegionalRegatta {
+	position: absolute;
+	top: 360%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+}
+
+.hobbies-CollegeCup {
+	position: absolute;
+	top: 360%;
+	left: 87%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+}
+
+.hobbies-FLLMentoring {
+	position: absolute;
+	top: 401%;
+	left: 13%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+}
+
+.hobbies-GuitarOutreach {
+	position: absolute;
+	top: 402%;
+	left: 87%;
+	transform: translate(-50%, -50%);
+	width: 26%;
 }
